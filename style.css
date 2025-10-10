@@ -121,17 +121,17 @@ section header {
   text-align: left;
 }
 
-article {
+section article {
   margin-bottom: 1.5em;
   padding-left: 1em;
   border-left: 3px solid oklch(80% 3% 200);
 }
 
-article header {
+section article header {
   margin-bottom: 0.5em;
 }
 
-article p {
+section article p {
   margin: 0.25em 0;
   color: oklch(60% 2% 200);
 }
