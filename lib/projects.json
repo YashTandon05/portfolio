@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Roadsense: Weather-Robust Object Detection",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2025",
+        "description": "Developing a weather-resilient object detection pipeline using YOLOv8 and synthetic vision data. Roadsense enhances model robustness across rain, fog, and glare, improving mean average precision in adverse scenarios. The project includes an interactive app for side-by-side inference and benchmarking of tracking and vision-transformer models."
+    },
+    {
+        "title": "Data Science Project: Modelling Refereeing Bias in Soccer",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2025",
+        "description": "Built a reproducible R-based workflow to analyze 25+ years of UEFA Champions League data with over 50 match features. Applied hypothesis testing and regression models to quantify systemic referee bias, uncovering measurable home-team favoritism and visualizing its evolution over time."
+    },
+    {
+        "title": "LexiLearn: Large Text-to-Storybook using Generative AI",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2024",
+        "description": "Created an LLM-powered web application that transforms dense educational texts into illustrated, accessible storybooks. Designed an extensible NLP pipeline with meta-prompting, vocabulary extraction, dyslexia-friendly text formatting, and quiz generation to make learning more engaging for young readers."
+    },
+    {
+        "title": "Est, ullam nam? A.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2024",
+        "description": "Voluptate numquam inventore molestias excepturi ullam. Odio porro assumenda error autem fugit, temporibus voluptatum voluptatibus quaerat exercitationem delectus id sapiente nobis, laborum illum libero doloribus quod. Hic, repudiandae error? Deleniti."
+    },
+    {
+        "title": "Eaque placeat laborum tempore?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2023",
+        "description": "Sunt animi ipsum molestiae rerum, earum quo reiciendis tenetur doloribus molestias. Unde recusandae reiciendis voluptatibus veniam delectus sint atque, commodi incidunt odit nisi molestias omnis iure soluta officiis doloremque non."
+    },
+    {
+        "title": "At voluptatem eum excepturi?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2023",
+        "description": "Exercitationem adipisci expedita corporis nulla ut blanditiis nemo nisi minima! Fuga maxime cum soluta hic reiciendis nemo quidem. Quos quod explicabo, perferendis autem delectus necessitatibus repudiandae accusamus voluptate cupiditate illo?"
+    },
+    {
+        "title": "Saepe officiis alias dolorem.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2023",
+        "description": "Aperiam sequi at, modi excepturi ea eos sunt earum impedit rem! Assumenda magni eos fugiat possimus qui commodi eligendi quasi error nemo, dolor fugit molestias. Accusamus nobis expedita non dolores."
+    },
+    {
+        "title": "Inventore praesentium aspernatur libero.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2022",
+        "description": "Blanditiis culpa non molestiae inventore fugiat maiores ipsam nobis tempore officia aliquid rerum minus reprehenderit perferendis earum ut temporibus sunt porro dignissimos consectetur iste qui, nihil consequatur neque. Placeat, iusto."
+    },
+    {
+        "title": "Necessitatibus fugiat maiores facilis?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2022",
+        "description": "Amet, corporis, suscipit ratione odit fugiat numquam provident quas eum nesciunt molestias perferendis voluptates in molestiae officia. Iusto assumenda quaerat sapiente vel saepe aliquid, ullam quis? Ut beatae accusamus rerum."
+    },
+    {
+        "title": "Necessitatibus fugit est consequatur?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2022",
+        "description": "Quidem est qui animi! Minima, non mollitia ratione exercitationem vel, similique officia nesciunt voluptatum excepturi accusamus, assumenda velit amet praesentium rem beatae ad vero totam ipsum magni delectus distinctio? Fuga?"
+    },
+    {
+        "title": "Atque quae laborum minima.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2022",
+        "description": "Omnis nihil maxime facere, minima laboriosam fuga architecto in optio illo, ratione eius rerum illum ducimus sequi. Accusamus rem doloribus minus, officiis architecto quaerat quibusdam quo cumque culpa porro commodi."
+    },
+    {
+        "title": "Iste tempora perferendis voluptatem.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2021",
+        "description": "Blanditiis beatae rerum esse soluta excepturi. Eos eaque suscipit quos nobis alias, ipsa doloribus repellendus vero est minima quisquam, voluptate dolor? Sunt dolorum delectus veritatis nihil architecto sapiente, consectetur at."
+    }
+]

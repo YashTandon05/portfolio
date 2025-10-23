@@ -82,7 +82,7 @@ button {
 .projects article {
   display: grid;
   grid-template-rows: subgrid;
-  grid-row: span 3;
+  grid-row: span 4;
 }
 
 .projects h2 {
@@ -156,4 +156,35 @@ li {
   top: 2em;
   font-size: 80%;
   font-family: inherit;
+}
+
+/* Profile stats grid layout */
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  text-align: center;
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--color-accent);
+}
+
+/* Project year styling */
+.project-year {
+  font-size: 0.9em;
+  color: var(--color-accent);
+  font-weight: 500;
+  margin: 0.25em 0 0.75em 0;
+  font-style: italic;
 }
