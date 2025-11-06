@@ -178,6 +178,27 @@ li {
   color: var(--color-accent);
 }
 
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.stats dt {
+  grid-row: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stats dd {
+  grid-row: 2;
+  text-align: center;
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--color-accent);
+}
+
 .project-year {
   font-size: 0.9em;
   color: var(--color-accent);
@@ -255,4 +276,73 @@ path.selected {
   margin-bottom: 2em;
   width: 100%;
   display: flex;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5em 1em;
+}
+
+.info dt {
+  grid-column: 1;
+  margin: 0;
+  color: oklch(60% 5% 200);
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.info dd {
+  grid-column: 2;
+  margin: 0;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: black;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 1em;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: red;
+}
+
+dl.info {
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
 }
